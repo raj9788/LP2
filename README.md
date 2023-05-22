@@ -41,3 +41,4 @@ then run
 scp filename.txt pc2username@pc2ipaddress:/home/pc2username/Desktop
 after running if a prompt occurs on terminal 1 type yes
 this will transfer the file and the file willbe visible on the desktop of pc2
+
