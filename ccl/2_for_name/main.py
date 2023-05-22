@@ -9,6 +9,6 @@ class MainPage(webapp2.RequestHandler):
 			rollNo = "<div> Your Roll No</div>"
 			depart = "<div> Your Department</div>"
 			self.response.write(name+rollNo+depart + "</br>")
-			i+=1
+			
 
 app = webapp2.WSGIApplication([("/",MainPage)],debug=True)
