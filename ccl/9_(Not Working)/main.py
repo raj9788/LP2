@@ -37,8 +37,8 @@ class ResultPage(webapp2.RequestHandler):
         self.write(anime_name)
         url = "https://myanimelist.p.rapidapi.com/anime/search/"+anime_name
         headers = {
-            "X-RapidAPI-Key": "466ebc41e5mshf91d55ee8227c4ep1a508bjsned7ee91f2c5b",
-            "X-RapidAPI-Host": "myanimelist.p.rapidapi.com"
+            "X-RapidAPI-Key": "",
+            "X-RapidAPI-Host": ""
         }
 
         response = requests.get(url, headers=headers)
